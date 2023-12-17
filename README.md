@@ -1,12 +1,12 @@
 # Neuweiler_Antonio_LB_183  
 
-##Einleitung:
+## Einleitung:
 -----------------------------
 
 In der Einleitung beschreiben Sie kurz den Inhalt des ePortfolios, damit die Lesenden einen Überblick haben, was sie erwartet.
 
 
-###Handlungsziel 1:
+### Handlungsziel 1:
 -----------------------------
 Wählen Sie ein Artefakt, welches Sie selbst erstellt haben und anhand dem Sie zeigen können, dass Sie das Handlungsziel erreicht haben. App und begriffe
 
