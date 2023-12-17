@@ -9,7 +9,7 @@ Handlungsziel 1:
 -----------------------------
 Wählen Sie ein Artefakt, welches Sie selbst erstellt haben und anhand dem Sie zeigen können, dass Sie das Handlungsziel erreicht haben. App und begriffe
 
-HAndlungsziel 2:
+Handlungsziel 2:
 -----------------------------
 Weisen Sie nach, wie Sie das Handlungsziel erreicht haben. Verweisen Sie dabei auf das von Ihnen erstellte Artefakt. Das Artefakt muss im ePortfolio sichtbar oder verlinkt sein.
 
