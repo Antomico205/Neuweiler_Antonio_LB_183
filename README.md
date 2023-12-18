@@ -55,6 +55,10 @@ Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/31b54e16-0dd7-4590-847a-f0d852978cc6)
 
+Die Sicherheitslücke im Code liegt in der Verwendung der string.Format-Methode, um die SQL-Abfrage zu erstellen. Das direkte Einfügen von Benutzereingaben in SQL-Abfragen ohne ordnungsgemäße Validierung ermöglicht sogenannte SQL-Injection-Angriffe.
+
+[![Klicken Sie hier, um das Video anzusehen](https://www.youtube.com/watch?v=1mQjS8iAHEY)
+
 
 ## Handlungsziel 3:
 
