@@ -59,7 +59,10 @@ Gegenmaßnahmen:
 
 ## Handlungsziel 2:
 
-Weisen Sie nach, wie Sie das Handlungsziel erreicht haben. Verweisen Sie dabei auf das von Ihnen erstellte Artefakt. Das Artefakt muss im ePortfolio sichtbar oder verlinkt sein.
+Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
+
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/31b54e16-0dd7-4590-847a-f0d852978cc6)
+
 
 ## Handlungsziel 3:
 
