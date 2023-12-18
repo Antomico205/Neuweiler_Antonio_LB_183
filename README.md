@@ -13,7 +13,8 @@ In diesem Portfolioeintrag werde ich also das Katz und Maus Spiel zwischen Hacke
 
 Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreifer auf sensible Bereiche des Systems zugreifen. Somit können Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
 
-[Broken Access Control](https://www.google.ch/url?sa=i&url=https%3A%2F%2Fpractonet.com%2Fbroken-access-control%2F&psig=AOvVaw1mzTlfaq_iK8HZ8uHXcgvm&ust=1702928925619000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiOlOOel4MDFQAAAAAdAAAAABAI)
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/63175202-dcb4-4e08-81db-1cf619cd260e)
+
 
 Gegenmaßnahmen: 
 1. Implementierung einer rollenbasierten Zugriffskontrolle, um sicherzustellen, dass Benutzer nur auf die für ihre Rolle erforderlichen Ressourcen zugreifen können.
@@ -25,7 +26,7 @@ Gegenmaßnahmen:
 
 Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
 
-[Cryptographic Failures](https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fwhy-does-cryptographic-software-fail-often-d660d3cdfdc5%2F&psig=AOvVaw1dHn_wLwS7F0YstLQjZ6Kj&ust=1702929137681000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCh-cufl4MDFQAAAAAdAAAAABAH)
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/64bf0ec8-b999-4b7d-99ba-58b845d246b0)
 
 Gegenmaßnahmen: 
 1. Verwendung aktueller und als sicher geltender Verschlüsselungsstandards für die Übertragung und Speicherung sensibler Daten.
@@ -37,7 +38,7 @@ Gegenmaßnahmen:
 
 Sicherheitsfehlkonfigurationen sind die am häufigsten vorkommenden Sicherheitsprobleme. Sie können aus einer ganzen Reihe von Fehlern resultieren, darunter unzureichende Standardkonfigurationen, offene Cloud-Speicher, unnötig aktive Dienste, veraltete Softwareversionen oder Fehler in der Zugriffskontrolliste. Diese Schwachstellen können einem Angreifer Tür und Tor öffnen, um sich weiteren Zugriff auf das System zu verschaffen.
 
-[Security Misconfiguration](https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.aquasec.com%2Fcloud-native-academy%2Fsupply-chain-security%2Fsecurity-misconfigurations%2F&psig=AOvVaw0x8OKXbmFXKmO_9WstHM1Y&ust=1702992121214000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOie6paKmYMDFQAAAAAdAAAAABAD)
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/68d3183c-97f9-471e-a3a8-9997ffbda526)
 
 Gegenmaßnahmen:
 1. Regelmäßige Sicherheitsaudits und -überprüfungen, um Fehlkonfigurationen zu identifizieren und zu beheben.
@@ -49,7 +50,7 @@ Gegenmaßnahmen:
 
 Auch unter der Abkürzung SSRF bekannt, ermöglichen es einem Angreifer, den Server dazu zu bringen, Anfragen an interne Ressourcen zu senden, die der Angreifer normalerweise nicht erreichen kann. Das kann dazu führen, dass der Angreifer Zugriff auf interne Dienste innerhalb der Infrastruktur des Unternehmens erhält, Informationen ausspioniert oder manipulative Aktionen durchführt.
 
-[Server-Side Request Forgery (SSRF)](https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fserver-side-request-forgery-ssrf-in-depth%2F&psig=AOvVaw0_w8WecvU66hiXtYQ97ifz&ust=1702992297902000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDM7umKmYMDFQAAAAAdAAAAABAD)
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/6b680c61-c6ec-42c6-ae55-14e3d82cbc21)
 
 Gegenmaßnahmen: 
 1. Beschränkung ausgehender Anfragen von Servern, um nur legitime und notwendige Ziele zu erlauben.
