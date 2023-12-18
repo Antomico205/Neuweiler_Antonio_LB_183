@@ -13,9 +13,6 @@ In diesem Portfolioeintrag werde ich also das Katz und Maus Spiel zwischen Hacke
 
 Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreifer auf sensible Bereiche des Systems zugreifen. Somit können Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
 
-![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/63175202-dcb4-4e08-81db-1cf619cd260e)
-
-
 Gegenmaßnahmen: 
 1. Implementierung einer rollenbasierten Zugriffskontrolle, um sicherzustellen, dass Benutzer nur auf die für ihre Rolle erforderlichen Ressourcen zugreifen können.
 2. Prinzip der minimalen Rechte anwenden, d.h., Benutzer erhalten nur die minimal notwendigen Rechte, um ihre Aufgaben zu erfüllen.
@@ -25,8 +22,6 @@ Gegenmaßnahmen:
 ### Cryptographic Failures
 
 Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
-
-![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/64bf0ec8-b999-4b7d-99ba-58b845d246b0)
 
 Gegenmaßnahmen: 
 1. Verwendung aktueller und als sicher geltender Verschlüsselungsstandards für die Übertragung und Speicherung sensibler Daten.
@@ -38,8 +33,6 @@ Gegenmaßnahmen:
 
 Sicherheitsfehlkonfigurationen sind die am häufigsten vorkommenden Sicherheitsprobleme. Sie können aus einer ganzen Reihe von Fehlern resultieren, darunter unzureichende Standardkonfigurationen, offene Cloud-Speicher, unnötig aktive Dienste, veraltete Softwareversionen oder Fehler in der Zugriffskontrolliste. Diese Schwachstellen können einem Angreifer Tür und Tor öffnen, um sich weiteren Zugriff auf das System zu verschaffen.
 
-![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/68d3183c-97f9-471e-a3a8-9997ffbda526)
-
 Gegenmaßnahmen:
 1. Regelmäßige Sicherheitsaudits und -überprüfungen, um Fehlkonfigurationen zu identifizieren und zu beheben.
 2. Automatisierung der Konfigurationsmanagementprozesse, um menschliche Fehler zu reduzieren.
@@ -49,8 +42,6 @@ Gegenmaßnahmen:
 ### Server-Side Request Forgery (SSRF)
 
 Auch unter der Abkürzung SSRF bekannt, ermöglichen es einem Angreifer, den Server dazu zu bringen, Anfragen an interne Ressourcen zu senden, die der Angreifer normalerweise nicht erreichen kann. Das kann dazu führen, dass der Angreifer Zugriff auf interne Dienste innerhalb der Infrastruktur des Unternehmens erhält, Informationen ausspioniert oder manipulative Aktionen durchführt.
-
-![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/6b680c61-c6ec-42c6-ae55-14e3d82cbc21)
 
 Gegenmaßnahmen: 
 1. Beschränkung ausgehender Anfragen von Servern, um nur legitime und notwendige Ziele zu erlauben.
