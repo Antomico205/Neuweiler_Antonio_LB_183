@@ -56,6 +56,10 @@ Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/31b54e16-0dd7-4590-847a-f0d852978cc6)
 
 Die Sicherheitslücke im Code liegt in der Verwendung der string.Format-Methode, um die SQL-Abfrage zu erstellen. Das direkte Einfügen von Benutzereingaben in SQL-Abfragen ohne ordnungsgemäße Validierung ermöglicht sogenannte SQL-Injection-Angriffe.
+Wenn der Angreifer im Benutzerfeld diese Werte eingeben würde ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/08ab2d9e-46d0-4d8c-aba2-4414bd4d8b30)
+, hat dieser Zugang auf die Webseite. 
+
+Beispiel an der Insecure App:
 
 https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/fed700bb-424f-4224-a522-b3a164294908
 
