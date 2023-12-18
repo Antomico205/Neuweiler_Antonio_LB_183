@@ -76,6 +76,22 @@ https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b
 
 ## Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
 
+Eine Zwei-Faktor-Authentifizierung wurde nun in der Insecure App eingebunden. Dies führt dazu, das der Benutzer es aktivieren kann wenn er sich anmeldet. Ein QR-Code wird nach der nächsten Aktivierung erstellt, den der Nutzer mit dem Handy scannen kann. Hier benötigt man dazu die Authenticator App von Google. Dies muss man zuerst herunterladen, damit man die Aktivität fortsetzten kann.
+
+Generierter QR-Code
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/47ba06b9-c8ef-436c-82b2-f6c0da17371b)
+
+Hier befindet man sich auf der Login Seite, auf der man den erhaltenen 2FA-Code eingeben muss.
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/0878e7a7-69cb-4dd4-8883-0ee9f6a5da01)
+
+Google Authenticator App auf dem Handy
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/92ce5add-ebc8-457e-9602-d37695eedc7a)
+
+Implementierter Code 
+Bei der ersten Anmeldung erfolgt eine Zwei-Faktor-Authentifizierung. Falls der Nutzer diesen Schritt getätigt hat, wird geprüft, ob der eingetragene Benutzerschlüssel übereinstimmt. 
+Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 401 Fehler meldung ausgegeben.
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/6157aa84-72a0-43c7-9819-fc2c81810176)
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/3229fdcf-c583-4eaf-9e1b-2f4f0bc8ef0c)
 
 
 ## Handlungsziel 4: 
