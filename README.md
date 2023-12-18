@@ -63,6 +63,16 @@ Beispiel an der Insecure App:
 
 https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/fed700bb-424f-4224-a522-b3a164294908
 
+Damit man dieses Problem beheben kann, kann man Parameterbindungen benutzen statt Benutzereingaben in die Abfrage einzufügen.
+
+Dies habe ich mit mit diesem Codeabschnitt gelöst.
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/e99bc8f6-83f2-4d81-8e2d-ea4464ed96cc)
+
+Beispiel nach der Problembehebung: 
+
+https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b-5319-4fa0-a9e2-95d3983b98ae
+
+
 
 ## Handlungsziel 3:
 
