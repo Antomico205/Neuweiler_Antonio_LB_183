@@ -96,7 +96,12 @@ Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 
 
 ## Handlungsziel 4: 
 
-Beurteilen Sie die Umsetzung Ihres Artefakts im Hinblick auf das Handlungsziel kritisch. Sollten gewisse Aspekte des Handlungsziels fehlen, haben Sie die Möglichkeit, in diesem Teil darauf einzugehen.
+Viele Menschen tendieren zu einem zu einfachen Passwort, damit sie Zeit sparen. Viele User benutzen Passwörter wie: 12345 oder Passwort. Somit wird der Mensch selbst zur Sicherheitslücke, da man ein Passwort besitzt, dass einfach zu erraaten ist. 
+Damit Benutzer vor zu einfachen Passwörter schützt, verfüght die Insecure App eine Funktion, die verscheidene Passwort Variationen verlangt
+
+Code:
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/32d22b62-66c2-4244-8653-f4091057f21e)
+
 
 ## Reflexion:
 
