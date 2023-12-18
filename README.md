@@ -75,6 +75,6 @@ Beurteilen Sie die Umsetzung Ihres Artefakts im Hinblick auf das Handlungsziel k
 
 ## Reflexion:
 
-![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/9de883bb-5a21-44c7-b487-315960dcb5c7)
+
 
 
