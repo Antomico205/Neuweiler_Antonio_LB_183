@@ -49,7 +49,7 @@ Gegenmaßnahmen:
 3. Verwendung sicherer Programmierpraktiken, um sicherzustellen, dass Eingaben validiert werden und externe Systemanfragen ordnungsgemäß gehandhabt werden.
 4. Regelmäßiges Patching und Aktualisieren der Server-Software, um bekannte SSRF-Lücken zu schließen.
 
-## Handlungsziel 2:
+## Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
 
 Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
 
@@ -74,9 +74,9 @@ https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b
 
 
 
-## Handlungsziel 3:
+## Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
 
-Erklären Sie das Artefakt in wenigen Sätzen. Sollte das Artefakt mehrere Handlungsziele beinhalten dürfen Sie die Erklärung auch zusammenfassen.
+
 
 ## Handlungsziel 4: 
 
