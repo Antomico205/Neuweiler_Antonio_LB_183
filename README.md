@@ -11,13 +11,20 @@ In diesem Prortfolioeintrag werde ich also das Katz und Maus Spiel zwischen Hack
 ## Handlungsziel 1: Momentane Sicherheitslücken
 -----------------------------
 Broken Access Control -> Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreiffer auf sensible Bereiche des Systems zugreiffen. Somit können  Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
+
 https://www.google.ch/url?sa=i&url=https%3A%2F%2Fpractonet.com%2Fbroken-access-control%2F&psig=AOvVaw1mzTlfaq_iK8HZ8uHXcgvm&ust=1702928925619000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiOlOOel4MDFQAAAAAdAAAAABAI
 
 Cryptographic Failures -> Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
+
 https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fwhy-does-cryptographic-software-fail-often-d660d3cdfdc5%2F&psig=AOvVaw1dHn_wLwS7F0YstLQjZ6Kj&ust=1702929137681000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCh-cufl4MDFQAAAAAdAAAAABAH
 
-Security Misconfiguration -> 
+Security Misconfiguration -> Sicherheitsfehlkonfigurationen sind die am häufigsten vorkommenden Sicherheitsprobleme. Sie können aus einer ganzen Reihe von Fehlern resultieren, darunter unzureichende Standardkonfigurationen, offene Cloud-Speicher, unnötig aktive Dienste, veraltete Softwareversionen oder Fehler in der Zugriffskontrolliste. Diese Schwachstellen können einem Angreifer Tür und Tor öffnen, um sich weiteren Zugriff auf das System zu verschaffen.
 
+https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.aquasec.com%2Fcloud-native-academy%2Fsupply-chain-security%2Fsecurity-misconfigurations%2F&psig=AOvVaw0x8OKXbmFXKmO_9WstHM1Y&ust=1702992121214000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOie6paKmYMDFQAAAAAdAAAAABAD
+
+Server-Side Request Forgery -> Auch unter der Abkürzung SSRF bekannt ermöglichen es einem Angreifer, den Server dazu zu bringen, Anfragen an interne Ressourcen zu senden, die der Angreifer normalerweise nicht erreichen kann. Das kann dazu führen, dass der Angreifer Zugriff auf interne Dienste innerhalb der Infrastruktur des Unternehmens erhält, Informationen ausspioniert oder manipulative Aktionen durchführt.
+
+https://www.google.ch/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fserver-side-request-forgery-ssrf-in-depth%2F&psig=AOvVaw0_w8WecvU66hiXtYQ97ifz&ust=1702992297902000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDM7umKmYMDFQAAAAAdAAAAABAD
 Handlungsziel 2:
 -----------------------------
 Weisen Sie nach, wie Sie das Handlungsziel erreicht haben. Verweisen Sie dabei auf das von Ihnen erstellte Artefakt. Das Artefakt muss im ePortfolio sichtbar oder verlinkt sein.
