@@ -10,9 +10,20 @@ In diesem Prortfolioeintrag werde ich also das Katz und Maus Spiel zwischen Hack
 
 ## Handlungsziel 1: Momentane Sicherheitslücken
 -----------------------------
-Broken Access Control -> Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreiffer auf sensible Bereiche des Systems zugreiffen. Somit können  Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
+
+Broken Access Control
+
+Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreiffer auf sensible Bereiche des Systems zugreiffen. Somit können  Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
 
 https://www.google.ch/url?sa=i&url=https%3A%2F%2Fpractonet.com%2Fbroken-access-control%2F&psig=AOvVaw1mzTlfaq_iK8HZ8uHXcgvm&ust=1702928925619000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiOlOOel4MDFQAAAAAdAAAAABAI
+
+Gegenamssnahmen: 
+
+1. Implementierung einer rollenbasierten Zugriffskontrolle, um sicherzustellen, dass Benutzer nur auf die für ihre Rolle erforderlichen Ressourcen zugreifen können.
+2. Prinzip der minimalen Rechte anwenden, d.h., Benutzer erhalten nur die minimal notwendigen Rechte, um ihre Aufgaben zu erfüllen.
+3. Regelmäßige Überprüfung und Aktualisierung der Zugriffsrechte, um sicherzustellen, dass keine veralteten Berechtigungen bestehen bleiben.
+4. Einsatz von Multi-Faktor-Authentifizierung, um die Sicherheit der Authentifizierung zu erhöhen.
+
 
 Cryptographic Failures -> Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
 
