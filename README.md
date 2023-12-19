@@ -60,7 +60,7 @@ Auch unter der Abkürzung SSRF bekannt, ermöglichen es einem Angreifer, den Ser
 
 Die vier erwähnten Probleme sind nur die am häufigsten auftretende Probleme. Es gibt noch sehr viele weitere Bedrohungen.
 
-#### Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
+### Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
 
 Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
 
@@ -85,17 +85,17 @@ https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b
 
 Aus diesem Grund ist es wichtig, den Code auf SQL Inhection zu prüfen.
 
-#### Beschreibung und Auswahl des Artefakt
+### Beschreibung und Auswahl des Artefakt
 Ich habe mich dazu entschieden ein Code Abschnitt der Insecure App auszuwählen, der zeigt wie die App auf diese SQL Injection geschützt ist.
 
-#### Nachweis 
+### Nachweis 
 Das Ziel wurde erreicht, da ich daie Sicherheitslücke erkannt habe und die oben gezeigte Gegenmassnahme eingesetzt habe. 
 
-#### Erklärung des Artefakts 
+### Erklärung des Artefakts 
 Im ersten Video sieht man, wie der Code mit der SQL Imjection sich mit den Benutzereingaben vermischt. Dies ist sehr gefählrich, da Angreiffer diese Eingaben manupulieren können.
 Im zweiten Video ist es sicherer, da man die Datenbank versucht anzufragen. Der Code schützt also gefährliche Angriffe auf die erwähnte Sicherheitslücke.
 
-#### Kritische Beurteilung: 
+### Kritische Beurteilung: 
 Die SQL Injection wurde erklärt und eine Gegenmassnahme wurde eingesetzt. Eine andere Möglichkeit dieses Problem zu lösen, währe Cross Site Scripting.
 
 
@@ -119,31 +119,31 @@ Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/3229fdcf-c583-4eaf-9e1b-2f4f0bc8ef0c)
 
 
-#### Autorisierung: 
+### Autorisierung: 
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ee5b48b5-689d-42bf-9428-c3622bfa5a11)
 
 Die Autorisierung wird hier in der Applikation gezeigt. Hier wird überprüft, ob der angemeldete Nutzer die benötigten Berechtigungen hat, um konkrete Änderungen vorzunehmen. Somit wird hier getestet ob der Nutzer ein Admin oder ein gewöhnlicher User ist. Falls diese Anforderungen nicht erfüllt werden, werdem dem User manche Funktionen blockiert. (Zugriff blockiert)
 
-#### Auswahl und Beschreibung des Artefakts
+### Auswahl und Beschreibung des Artefakts
 Als Artefakt habe ich einen Codeabschnitt von der Insecure App genommen. Dieser zeigt, wie der Ablauf der Authentifizierung und Autorisierung funktioniert. Im verlauf von diesem Handlungsziel habe ich verschiedene Codeabschnitte eingefügt um zu verdäutliche wie dies funktioniert.
 
-#### Nachweis
+### Nachweis
 Das implementieren der Zwei Faktor Authentifizierung in der Insecure App hat funktioniert. Somit habe ich das Ziel erreicht. Die Umsetzung der Autorisierung hat auch geklapt. Wenn sich der Nutzer anmelden möchte und die ID nicht richtig ist bedeutet das, das die Person nicht der Autor der erstellten Nachricht ist. 
 
-#### Erklärung des Artefakts 
+### Erklärung des Artefakts 
 
-#Authentifizierung
+### Authentifizierung
 Der erste Codeabschnitt überprüft, ob der Nutzer die 2FA aktiviert hat und authentifiziert ihn anhand dem eingegebenen Schlüssel.
 Im zweiten Codeabschnitt ist es für einen Nutzer möglich die 2FA zu aktivieren. Für den Nutzer wird dan ein neuen geheimen Schlüssel sowohl auch ein QR Code erstellt.
 
-#Autorisierung
+### Autorisierung
 Im Codeabschnitt wird geschaut, ob der Nutzer ein Administrator ist oder nicht. Falls der Nutzer ein Administrator ist, hat er alle Admin Rechte die er nutzen kann. Falls die ID nicht mit dem Administrator der Nachricht übereinstimmt, hat dieser Nutzer keine Rechte diese Nachricht zu löschen.
 
-#Kritische Beurteilung
+### Kritische Beurteilung
 In diesem Handlungsziel habe ich über die Zwei Faktor Authentifizierung und die Autorisierung erläutert und in meinem Projekt umgesetzt. 
 
-# Handlungsziel 4: 
+### Handlungsziel 4: 
 
 Viele Menschen tendieren zu einem zu einfachen Passwort, damit sie Zeit sparen. Viele User benutzen Passwörter wie: 12345 oder Passwort. Somit wird der Mensch selbst zur Sicherheitslücke, da man ein Passwort besitzt, dass einfach zu erraaten ist. 
 Damit Benutzer vor zu einfachen Passwörter schützt, verfüght die Insecure App eine Funktion, die verscheidene Passwort Variationen verlangt
@@ -152,21 +152,21 @@ Code:
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/32d22b62-66c2-4244-8653-f4091057f21e)
 
-#Auswahl und Beschreibung des Artefakts
+### Auswahl und Beschreibung des Artefakts
 
 Als Artefakt habe ich einen Codeabschnitt aus der Insecure App ausgesucht, die aufzeigt wie sich die App vor dem menschlichen Faktor als Sicherheitslücke schützt.
 
-#Nachweis der Zielreichung
+### Nachweis der Zielreichung
 Dadurch das ich die App sicher gegen den menschlichen Faktor gemacht habe wurde das Ziel erreicht.
 
-#Erklärung des Artefakts
+### Erklärung des Artefakts
 Im code ist ersichtlich, wie es sich voreinfachen Passwörter wie z.b Passwort oder 1234567890 schützt. So konnte die App dadurch geschützt werden.
 
-#Kritische Beurteilung
+### Kritische Beurteilung
 Der menschliche Faktor wurde nur auf die Passwortwahl angepasst. Dadurch ist es nicht sicher da man immernoch durch Phishing in die App gelangen kann. (Bedeutet das der Nutzer auf eine falsche Webseite gelockt werden kann und dort das Passwort herausfinden kann.)
 
 
-#Handlungsziel 5: 
+### Handlungsziel 5: 
 
 Mit dem Hinzufügen von Loggin-Nachrichten ist es für Administratoren sowohl auch für Entwickler möglich wichtige Ereignisse in der Applikation zu sehen. Dies erleichtert die Nachverfolgung von Aktivitäten im System. Somit sind diese Protokolle für das Debuggen nützlich, da sie bei der Identifizierung von Problemen oder Sicherheitsvorfällen ersichtlich sind.
 
@@ -179,13 +179,13 @@ Konsolenansicht:
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/d9b91dbf-b19a-4db6-ae55-b3c511c661f6)
 
-#Auswahl und Beschreibung des Artefakts
+### Auswahl und Beschreibung des Artefakts
 Als Artefakt habe ich ein Codeabschnitt ausgesucht, der aufzeigt, wie die Applikation auf Warnungen und Log Informationen umgeht und was er ausgibt.
 
-#Nachweis 
+### Nachweis 
 Das Ziel wurde erreicht. Dies sieht man an der Ausgegebenen Konsolenausgabe.
 
-#Erklärung des Artefakts 
+### Erklärung des Artefakts 
 
 Im falle, dass kein Benutzer gefunden wurde wird eine Log Warnung ausgegeben. Diese zeigt, das der Anmeldevorgang nicht funktioniert hat. 
 Wenn sich ein Nutzer erfolgreich anmelden konnte, wird ein ok Status ausgegeben.
