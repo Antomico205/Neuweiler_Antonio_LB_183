@@ -151,6 +151,19 @@ Code:
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/32d22b62-66c2-4244-8653-f4091057f21e)
 
+#Auswahl und Beschreibung des Artefakts
+
+Als Artefakt habe ich einen Codeabschnitt aus der Insecure App ausgesucht, die aufzeigt wie sich die App vor dem menschlichen Faktor als Sicherheitslücke schützt.
+
+#Nachweis der Zielreichung
+Dadurch das ich die App sicher gegen den menschlichen Faktor gemacht habe wurde das Ziel erreicht.
+
+#Erklärung des Artefakts
+Im code ist ersichtlich, wie es sich voreinfachen Passwörter wie z.b Passwort oder 1234567890 schützt. So konnte die App dadurch geschützt werden.
+
+#Kritische Beurteilung
+Der menschliche Faktor wurde nur auf die Passwortwahl angepasst. Dadurch ist es nicht sicher da man immernoch durch Phishing in die App gelangen kann. (Bedeutet das der Nutzer auf eine falsche Webseite gelockt werden kann und dort das Passwort herausfinden kann.)
+
 
 #Handlungsziel 5: 
 
@@ -165,8 +178,17 @@ Konsolenansicht:
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/d9b91dbf-b19a-4db6-ae55-b3c511c661f6)
 
+#Auswahl und Beschreibung des Artefakts
+Als Artefakt habe ich ein Codeabschnitt ausgesucht, der aufzeigt, wie die Applikation auf Warnungen und Log Informationen umgeht und was er ausgibt.
 
-# Reflexion:
+#Nachweis 
+Das Ziel wurde erreicht. Dies sieht man an der Ausgegebenen Konsolenausgabe.
+
+#Erklärung des Artefakts 
+
+Im falle, dass kein Benutzer gefunden wurde wird eine Log Warnung ausgegeben. Diese zeigt, das der Anmeldevorgang nicht funktioniert hat. 
+Wenn sich ein Nutzer erfolgreich anmelden konnte, wird ein ok Status ausgegeben.
+
 
 
 
