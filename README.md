@@ -13,7 +13,7 @@ Selbsteinschätzung:
 Das Modul über Cybersecurity hat mir sehr gefallen, da ich schon immer mal wissen wollte wie das Thema aufgebaut ist und wie die Behebung von Sicherheitslücken funktioniert. Während dem Modul ist es mir ein wenig schwer gefallen mit dem Stoff mitzuhalten, da ich viele neue BEgriffe kennenlernen musste. Dadurch, dass ich mich mit dem gesammten Stoff der Leistungsbeurteilung befassen musste, half es mir Sachen zu verstehen, die ich beim ersten Mal nicht richtig verstanden habe. 
 Da ich nicht alle Aufgaben der Leistungsbeurteilung erfüllt habe, würde ich aber dennoch behaupten das ich die wichtigen Zusammenhänge verstanden habe.
 
-## Handlungsziel 1: Momentane Sicherheitslücken
+# Handlungsziel 1: 
 
 ### Broken Access Control
 
@@ -60,7 +60,7 @@ Auch unter der Abkürzung SSRF bekannt, ermöglichen es einem Angreifer, den Ser
 
 Die vier erwähnten Probleme sind nur die am häufigsten auftretende Probleme. Es gibt noch sehr viele weitere Bedrohungen.
 
-### Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
+# Handlungsziel 2: 
 
 Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
 
@@ -99,7 +99,7 @@ Im zweiten Video ist es sicherer, da man die Datenbank versucht anzufragen. Der 
 Die SQL Injection wurde erklärt und eine Gegenmassnahme wurde eingesetzt. Eine andere Möglichkeit dieses Problem zu lösen, währe Cross Site Scripting.
 
 
-#### Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
+# Handlungsziel 3: 
 
 Eine Zwei-Faktor-Authentifizierung wurde nun in der Insecure App eingebunden. Dies führt dazu, das der Benutzer es aktivieren kann wenn er sich anmeldet. Ein QR-Code wird nach der nächsten Aktivierung erstellt, den der Nutzer mit dem Handy scannen kann. Hier benötigt man dazu die Authenticator App von Google. Dies muss man zuerst herunterladen, damit man die Aktivität fortsetzten kann.
 
@@ -143,7 +143,7 @@ Im Codeabschnitt wird geschaut, ob der Nutzer ein Administrator ist oder nicht. 
 ### Kritische Beurteilung
 In diesem Handlungsziel habe ich über die Zwei Faktor Authentifizierung und die Autorisierung erläutert und in meinem Projekt umgesetzt. 
 
-### Handlungsziel 4: 
+# Handlungsziel 4: 
 
 Viele Menschen tendieren zu einem zu einfachen Passwort, damit sie Zeit sparen. Viele User benutzen Passwörter wie: 12345 oder Passwort. Somit wird der Mensch selbst zur Sicherheitslücke, da man ein Passwort besitzt, dass einfach zu erraaten ist. 
 Damit Benutzer vor zu einfachen Passwörter schützt, verfüght die Insecure App eine Funktion, die verscheidene Passwort Variationen verlangt
@@ -166,7 +166,7 @@ Im code ist ersichtlich, wie es sich voreinfachen Passwörter wie z.b Passwort o
 Der menschliche Faktor wurde nur auf die Passwortwahl angepasst. Dadurch ist es nicht sicher da man immernoch durch Phishing in die App gelangen kann. (Bedeutet das der Nutzer auf eine falsche Webseite gelockt werden kann und dort das Passwort herausfinden kann.)
 
 
-### Handlungsziel 5: 
+# Handlungsziel 5: 
 
 Mit dem Hinzufügen von Loggin-Nachrichten ist es für Administratoren sowohl auch für Entwickler möglich wichtige Ereignisse in der Applikation zu sehen. Dies erleichtert die Nachverfolgung von Aktivitäten im System. Somit sind diese Protokolle für das Debuggen nützlich, da sie bei der Identifizierung von Problemen oder Sicherheitsvorfällen ersichtlich sind.
 
