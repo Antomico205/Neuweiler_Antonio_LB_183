@@ -5,8 +5,13 @@ Der technologische Fortschritt der letzten Jahrzehnte hat sich als sehr hilfreic
 
 Dies führte zu einem rasanten Wachstum im Bereich der Cybersecurity, da Firmen, sich vor Datenlecks und Diebstahl von geistigem Eigentum schützen möchten. 
 
-In diesem Portfolioeintrag werde ich also das Katz und Maus Spiel zwischen Hacker und einem Applikationsentwickler näher bringen.
+In diesem Portfolioeintrag werde ich also das Katz und Maus Spiel zwischen einem Angreiffer und Applikationsentwickler näher bringen. Ich werde dadurch die im Modul 183 erreichten Handlungsziele vorstellen. 
 
+
+##Selbsteinschätzung:
+
+Das Modul über Cybersecurity hat mir sehr gefallen, da ich schon immer mal wissen wollte wie das Thema aufgebaut ist und wie die Behebung von Sicherheitslücken funktioniert. Während dem Modul ist es mir ein wenig schwer gefallen mit dem Stoff mitzuhalten, da ich viele neue BEgriffe kennenlernen musste. Dadurch, dass ich mich mit dem gesammten Stoff der Leistungsbeurteilung befassen musste, half es mir Sachen zu verstehen, die ich beim ersten Mal nicht richtig verstanden habe. 
+Da ich nicht alle Aufgaben der Leistungsbeurteilung erfüllt habe, würde ich aber dennoch behaupten das ich die wichtigen Zusammenhänge verstanden habe. 
 ## Handlungsziel 1: Momentane Sicherheitslücken
 
 ### Broken Access Control
@@ -50,7 +55,7 @@ Gegenmaßnahmen:
 4. Regelmäßiges Patching und Aktualisieren der Server-Software, um bekannte SSRF-Lücken zu schließen.
 
 
-##Beurteilung der Begriffe: 
+##Kritische Beurteilung: 
 
 Die vier erwähnten Probleme sind nur die am häufigsten auftretende Probleme. Es gibt noch sehr viele weitere Bedrohungen.
 
@@ -77,34 +82,17 @@ Beispiel nach der Problembehebung:
 
 https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b-5319-4fa0-a9e2-95d3983b98ae
 
-Code Review:
+Aus diesem Grund ist es wichtig, den Code auf SQL Inhection zu prüfen.
 
-Manueller Code Review: 
+##Beschreibung und Auswahl des Artefakt
+Ich habe mich dazu entschieden ein Code Abschnitt der Insecure App auszuwählen, der zeigt wie die App auf diese SQL Injection geschützt ist.
 
-1. Der Reviewer sollte den Kontext, die Programmiersprache und Sicherheitspakete kennen.
-2. Statische Tesmethoden überprüfen.
-3. Regelmässige Code Reviews sind ausschlaggebend für die Sicherheitsüberprüfung.
+##Nachweis 
+Das Ziel wurde erreicht, da ich daie Sicherheitslücke erkannt habe und die oben gezeigte Gegenmassnahme eingesetzt habe. 
 
-Architektur Reviews: 
+##Erklärung des Artefakts 
 
-1. Die Architektur ist wichtig für die Sicherheitsüberprüfung.
-2. Der Datenfluss innerhalb der Anwendung wird verfolgt, damit heikle Daten richtig geschützt sind.
 
-Automatisierte Sicherheitsprüfungen:
-
-1. Es sollten nicht nur manuelle sondern auch automatische Sicherheitsprüfungen geben.
-2. Tools und Scanner identifizieren dadurch bekannte Schwachstellen und Konfigurationsfehler.
-3. Die Ergebnisse muss man konkret nochmals überprüfen, da es ein (false positive) Fehler sein könnte.
-
-Best Practices:
-
-1. Sicherheitsreviews sollten in sogenannten Entwicklungszyklen regelmässig durchgeführt werden.
-2. Sicherheitsprobleme müssen dokumentiert werden.
-3. Die Verwendung von Checklisten verhindert das vergessen von wichtigen Aspekten.
-
-Pentest:
-
-"Pentest" ist eine Abkürzung für Penetrationstest (auch als Ethical Hacking oder Sicherheitsaudit bezeichnet). Ein Pentest ist eine autorisierte und systematische Methode, um die Sicherheit eines Computersystems, Netzwerks oder einer Anwendung zu bewerten. Das Ziel eines Penetrationstests ist es, Schwachstellen in einem System zu identifizieren, bevor diese von bösartigen Angreifern ausgenutzt werden können.
 
 ## Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
 
