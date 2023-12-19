@@ -126,8 +126,23 @@ Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 
 Viele Menschen tendieren zu einem zu einfachen Passwort, damit sie Zeit sparen. Viele User benutzen Passwörter wie: 12345 oder Passwort. Somit wird der Mensch selbst zur Sicherheitslücke, da man ein Passwort besitzt, dass einfach zu erraaten ist. 
 Damit Benutzer vor zu einfachen Passwörter schützt, verfüght die Insecure App eine Funktion, die verscheidene Passwort Variationen verlangt
 
-Code:
+Code: 
+
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/32d22b62-66c2-4244-8653-f4091057f21e)
+
+
+##Handlungsziel 5: 
+
+Mit dem Hinzufügen von Loggin-Nachrichten ist es für Administratoren sowohl auch für Entwickler möglich wichtige Ereignisse in der Applikation zu sehen. Dies erleichtert die Nachverfolgung von Aktivitäten im System. Somit sind diese Protokolle für das Debuggen nützlich, da sie bei der Identifizierung von Problemen oder Sicherheitsvorfällen ersichtlich sind.
+
+Code:
+
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/e159cd82-18ee-459f-8da6-07d6ae1bfb1c)
+
+
+Konsolenansicht: 
+
+![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/d9b91dbf-b19a-4db6-ae55-b3c511c661f6)
 
 
 ## Reflexion:
