@@ -91,7 +91,11 @@ Ich habe mich dazu entschieden ein Code Abschnitt der Insecure App auszuwählen,
 Das Ziel wurde erreicht, da ich daie Sicherheitslücke erkannt habe und die oben gezeigte Gegenmassnahme eingesetzt habe. 
 
 ##Erklärung des Artefakts 
+Im ersten Video sieht man, wie der Code mit der SQL Imjection sich mit den Benutzereingaben vermischt. Dies ist sehr gefählrich, da Angreiffer diese Eingaben manupulieren können.
+Im zweiten Video ist es sicherer, da man die Datenbank versucht anzufragen. Der Code schützt also gefährliche Angriffe auf die erwähnte Sicherheitslücke.
 
+##Kritische Beurteilung: 
+Die SQL Injection wurde erklärt und eine Gegenmassnahme wurde eingesetzt. Eine andere Möglichkeit dieses Problem zu lösen, währe Cross Site Scripting.
 
 
 ## Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
@@ -119,6 +123,24 @@ Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ee5b48b5-689d-42bf-9428-c3622bfa5a11)
 
 Die Autorisierung wird hier in der Applikation gezeigt. Hier wird überprüft, ob der angemeldete Nutzer die benötigten Berechtigungen hat, um konkrete Änderungen vorzunehmen. Somit wird hier getestet ob der Nutzer ein Admin oder ein gewöhnlicher User ist. Falls diese Anforderungen nicht erfüllt werden, werdem dem User manche Funktionen blockiert. (Zugriff blockiert)
+
+##Auswahl und Beschreibung des Artefakts
+Als Artefakt habe ich einen Codeabschnitt von der Insecure App genommen. Dieser zeigt, wie der Ablauf der Authentifizierung und Autorisierung funktioniert. Im verlauf von diesem Handlungsziel habe ich verschiedene Codeabschnitte eingefügt um zu verdäutliche wie dies funktioniert.
+
+##Nachweis
+Das implementieren der Zwei Faktor Authentifizierung in der Insecure App hat funktioniert. Somit habe ich das Ziel erreicht. Die Umsetzung der Autorisierung hat auch geklapt. Wenn sich der Nutzer anmelden möchte und die ID nicht richtig ist bedeutet das, das die Person nicht der Autor der erstellten Nachricht ist. 
+
+##Erklärung des Artefakts 
+
+#Authentifizierung
+Der erste Codeabschnitt überprüft, ob der Nutzer die 2FA aktiviert hat und authentifiziert ihn anhand dem eingegebenen Schlüssel.
+Im zweiten Codeabschnitt ist es für einen Nutzer möglich die 2FA zu aktivieren. Für den Nutzer wird dan ein neuen geheimen Schlüssel sowohl auch ein QR Code erstellt.
+
+#Autorisierung
+Im Codeabschnitt wird geschaut, ob der Nutzer ein Administrator ist oder nicht. Falls der Nutzer ein Administrator ist, hat er alle Admin Rechte die er nutzen kann. Falls die ID nicht mit dem Administrator der Nachricht übereinstimmt, hat dieser Nutzer keine Rechte diese Nachricht zu löschen.
+
+##Kritische Beurteilung
+In diesem Handlungsziel habe ich über die Zwei Faktor Authentifizierung und die Autorisierung erläutert und in meinem Projekt umgesetzt. 
 
 ## Handlungsziel 4: 
 
