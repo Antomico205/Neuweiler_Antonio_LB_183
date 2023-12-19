@@ -14,7 +14,7 @@ Das Modul über Cybersecurity hat mir sehr gefallen, da ich schon immer mal wiss
 Da ich nicht alle Aufgaben der Leistungsbeurteilung erfüllt habe, würde ich aber dennoch behaupten das ich die wichtigen Zusammenhänge verstanden habe. 
 ## Handlungsziel 1: Momentane Sicherheitslücken
 
-##Broken Access Control
+###Broken Access Control
 
 Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreifer auf sensible Bereiche des Systems zugreifen. Somit können Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
 
@@ -24,7 +24,7 @@ Gegenmaßnahmen:
 3. Regelmäßige Überprüfung und Aktualisierung der Zugriffsrechte, um sicherzustellen, dass keine veralteten Berechtigungen bestehen bleiben.
 4. Einsatz von Multi-Faktor-Authentifizierung, um die Sicherheit der Authentifizierung zu erhöhen.
 
-## Cryptographic Failures
+### Cryptographic Failures
 
 Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
 
