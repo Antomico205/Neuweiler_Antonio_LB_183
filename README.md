@@ -72,7 +72,34 @@ Beispiel nach der Problembehebung:
 
 https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b-5319-4fa0-a9e2-95d3983b98ae
 
+Code Review:
 
+Manueller Code Review: 
+
+1. Der Reviewer sollte den Kontext, die Programmiersprache und Sicherheitspakete kennen.
+2. Statische Tesmethoden überprüfen.
+3. Regelmässige Code Reviews sind ausschlaggebend für die Sicherheitsüberprüfung.
+
+Architektur Reviews: 
+
+1. Die Architektur ist wichtig für die Sicherheitsüberprüfung.
+2. Der Datenfluss innerhalb der Anwendung wird verfolgt, damit heikle Daten richtig geschützt sind.
+
+Automatisierte Sicherheitsprüfungen:
+
+1. Es sollten nicht nur manuelle sondern auch automatische Sicherheitsprüfungen geben.
+2. Tools und Scanner identifizieren dadurch bekannte Schwachstellen und Konfigurationsfehler.
+3. Die Ergebnisse muss man konkret nochmals überprüfen, da es ein (false positive) Fehler sein könnte.
+
+Best Practices:
+
+1. Sicherheitsreviews sollten in sogenannten Entwicklungszyklen regelmässig durchgeführt werden.
+2. Sicherheitsprobleme müssen dokumentiert werden.
+3. Die Verwendung von Checklisten verhindert das vergessen von wichtigen Aspekten.
+
+Pentest:
+
+"Pentest" ist eine Abkürzung für Penetrationstest (auch als Ethical Hacking oder Sicherheitsaudit bezeichnet). Ein Pentest ist eine autorisierte und systematische Methode, um die Sicherheit eines Computersystems, Netzwerks oder einer Anwendung zu bewerten. Das Ziel eines Penetrationstests ist es, Schwachstellen in einem System zu identifizieren, bevor diese von bösartigen Angreifern ausgenutzt werden können.
 
 ## Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
 
