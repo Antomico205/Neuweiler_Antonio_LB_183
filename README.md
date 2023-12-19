@@ -11,14 +11,15 @@ In diesem Portfolioeintrag werde ich also das Katz und Maus Spiel zwischen einem
 Selbsteinschätzung:
 
 Das Modul über Cybersecurity hat mir sehr gefallen, da ich schon immer mal wissen wollte wie das Thema aufgebaut ist und wie die Behebung von Sicherheitslücken funktioniert. Während dem Modul ist es mir ein wenig schwer gefallen mit dem Stoff mitzuhalten, da ich viele neue BEgriffe kennenlernen musste. Dadurch, dass ich mich mit dem gesammten Stoff der Leistungsbeurteilung befassen musste, half es mir Sachen zu verstehen, die ich beim ersten Mal nicht richtig verstanden habe. 
-Da ich nicht alle Aufgaben der Leistungsbeurteilung erfüllt habe, würde ich aber dennoch behaupten das ich die wichtigen Zusammenhänge verstanden habe. 
+Da ich nicht alle Aufgaben der Leistungsbeurteilung erfüllt habe, würde ich aber dennoch behaupten das ich die wichtigen Zusammenhänge verstanden habe.
+
 ## Handlungsziel 1: Momentane Sicherheitslücken
 
-###Broken Access Control
+## Broken Access Control
 
 Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berechtigungen für den Zugriff auf bestimmte Daten oder Funktionen haben, tritt diese Bedrohung auf. Dadurch können Angreifer auf sensible Bereiche des Systems zugreifen. Somit können Daten geändert oder gelöscht werden ohne die benötigten Berechtigungen zu haben.
 
-Gegenmaßnahmen: 
+## Gegenmaßnahmen: 
 1. Implementierung einer rollenbasierten Zugriffskontrolle, um sicherzustellen, dass Benutzer nur auf die für ihre Rolle erforderlichen Ressourcen zugreifen können.
 2. Prinzip der minimalen Rechte anwenden, d.h., Benutzer erhalten nur die minimal notwendigen Rechte, um ihre Aufgaben zu erfüllen.
 3. Regelmäßige Überprüfung und Aktualisierung der Zugriffsrechte, um sicherzustellen, dass keine veralteten Berechtigungen bestehen bleiben.
