@@ -49,6 +49,11 @@ Gegenmaßnahmen:
 3. Verwendung sicherer Programmierpraktiken, um sicherzustellen, dass Eingaben validiert werden und externe Systemanfragen ordnungsgemäß gehandhabt werden.
 4. Regelmäßiges Patching und Aktualisieren der Server-Software, um bekannte SSRF-Lücken zu schließen.
 
+
+##Beurteilung der Begriffe: 
+
+Die vier erwähnten Probleme sind nur die am häufigsten auftretende Probleme. Es gibt noch sehr viele weitere Bedrohungen.
+
 ## Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
 
 Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
