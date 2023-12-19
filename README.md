@@ -29,38 +29,38 @@ Wenn ein System nicht richtig überprüft, ob die Benutzer die richtigen Berecht
 
 Dieses Problem bezieht sich auf die unzureichende Verschlüsselung oder den Schutz von sensiblen Daten. Dazu gehören Fehler wie die Verwendung veralteter oder unsicherer Kryptographieverfahren, das Offenlegen privater Schlüssel oder das Fehlen einer Verschlüsselung, wo sie notwendig wäre. Diese Versäumnisse können dazu führen, dass vertrauliche Informationen wie Passwörter, Finanzdaten oder persönliche Daten kompromittiert werden.
 
-Gegenmaßnahmen: 
+### Gegenmaßnahmen: 
 1. Verwendung aktueller und als sicher geltender Verschlüsselungsstandards für die Übertragung und Speicherung sensibler Daten.
 2. Regelmäßige Überprüfung und Erneuerung von Zertifikaten und Schlüsselmaterialien.
 3. Sichere Speicherung von Schlüsseln und Zertifikaten, um unautorisierten Zugriff zu verhindern.
 4. Implementierung von Protokollen zur Früherkennung und Reaktion auf Datenlecks.
 
-# Security Misconfiguration
+### Security Misconfiguration
 
 Sicherheitsfehlkonfigurationen sind die am häufigsten vorkommenden Sicherheitsprobleme. Sie können aus einer ganzen Reihe von Fehlern resultieren, darunter unzureichende Standardkonfigurationen, offene Cloud-Speicher, unnötig aktive Dienste, veraltete Softwareversionen oder Fehler in der Zugriffskontrolliste. Diese Schwachstellen können einem Angreifer Tür und Tor öffnen, um sich weiteren Zugriff auf das System zu verschaffen.
 
-Gegenmaßnahmen:
+### Gegenmaßnahmen:
 1. Regelmäßige Sicherheitsaudits und -überprüfungen, um Fehlkonfigurationen zu identifizieren und zu beheben.
 2. Automatisierung der Konfigurationsmanagementprozesse, um menschliche Fehler zu reduzieren.
 3. Einsatz von Tools zur Verwaltung von Konfigurationen, die gewährleisten, dass nur genehmigte Änderungen vorgenommen werden.
 4. Strenge Trennung von Test- und Produktionsumgebungen und Begrenzung der Zugriffe auf die Produktionsumgebung.
 
-# Server-Side Request Forgery (SSRF)
+### Server-Side Request Forgery (SSRF)
 
 Auch unter der Abkürzung SSRF bekannt, ermöglichen es einem Angreifer, den Server dazu zu bringen, Anfragen an interne Ressourcen zu senden, die der Angreifer normalerweise nicht erreichen kann. Das kann dazu führen, dass der Angreifer Zugriff auf interne Dienste innerhalb der Infrastruktur des Unternehmens erhält, Informationen ausspioniert oder manipulative Aktionen durchführt.
 
-Gegenmaßnahmen: 
+### Gegenmaßnahmen: 
 1. Beschränkung ausgehender Anfragen von Servern, um nur legitime und notwendige Ziele zu erlauben.
 2. Einsatz von Firewalls und anderer Netzwerksicherheitsmechanismen, um nicht autorisierten Datenverkehr zu blockieren.
 3. Verwendung sicherer Programmierpraktiken, um sicherzustellen, dass Eingaben validiert werden und externe Systemanfragen ordnungsgemäß gehandhabt werden.
 4. Regelmäßiges Patching und Aktualisieren der Server-Software, um bekannte SSRF-Lücken zu schließen.
 
 
-#Kritische Beurteilung: 
+### Kritische Beurteilung: 
 
 Die vier erwähnten Probleme sind nur die am häufigsten auftretende Probleme. Es gibt noch sehr viele weitere Bedrohungen.
 
-# Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
+#### Handlungsziel 2: Sicherheitslücken und ihre Ursachen in einer Applikation erkennen und Gegenmassnahmen vorschlagen und implementieren können.
 
 Um solch eine Sicherheitslücke aufzuzeigen, habe ich mich entschieden, mich auf das Login zu konzentrieren.
 
@@ -85,21 +85,21 @@ https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ea62893b
 
 Aus diesem Grund ist es wichtig, den Code auf SQL Inhection zu prüfen.
 
-#Beschreibung und Auswahl des Artefakt
+#### Beschreibung und Auswahl des Artefakt
 Ich habe mich dazu entschieden ein Code Abschnitt der Insecure App auszuwählen, der zeigt wie die App auf diese SQL Injection geschützt ist.
 
-#Nachweis 
+#### Nachweis 
 Das Ziel wurde erreicht, da ich daie Sicherheitslücke erkannt habe und die oben gezeigte Gegenmassnahme eingesetzt habe. 
 
-#Erklärung des Artefakts 
+#### Erklärung des Artefakts 
 Im ersten Video sieht man, wie der Code mit der SQL Imjection sich mit den Benutzereingaben vermischt. Dies ist sehr gefählrich, da Angreiffer diese Eingaben manupulieren können.
 Im zweiten Video ist es sicherer, da man die Datenbank versucht anzufragen. Der Code schützt also gefährliche Angriffe auf die erwähnte Sicherheitslücke.
 
-#Kritische Beurteilung: 
+#### Kritische Beurteilung: 
 Die SQL Injection wurde erklärt und eine Gegenmassnahme wurde eingesetzt. Eine andere Möglichkeit dieses Problem zu lösen, währe Cross Site Scripting.
 
 
-# Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
+#### Handlungsziel 3: Mechanismen für die Autorisierung und Authentifizierung umsetzen können.
 
 Eine Zwei-Faktor-Authentifizierung wurde nun in der Insecure App eingebunden. Dies führt dazu, das der Benutzer es aktivieren kann wenn er sich anmeldet. Ein QR-Code wird nach der nächsten Aktivierung erstellt, den der Nutzer mit dem Handy scannen kann. Hier benötigt man dazu die Authenticator App von Google. Dies muss man zuerst herunterladen, damit man die Aktivität fortsetzten kann.
 
@@ -119,19 +119,19 @@ Falls der Nutzer keine 2FA oder den Schlüssel falsch eingegeben hat, wird eine 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/3229fdcf-c583-4eaf-9e1b-2f4f0bc8ef0c)
 
 
-# Autorisierung: 
+#### Autorisierung: 
 
 ![image](https://github.com/Antomico205/Neuweiler_Antonio_LB_183/assets/89131333/ee5b48b5-689d-42bf-9428-c3622bfa5a11)
 
 Die Autorisierung wird hier in der Applikation gezeigt. Hier wird überprüft, ob der angemeldete Nutzer die benötigten Berechtigungen hat, um konkrete Änderungen vorzunehmen. Somit wird hier getestet ob der Nutzer ein Admin oder ein gewöhnlicher User ist. Falls diese Anforderungen nicht erfüllt werden, werdem dem User manche Funktionen blockiert. (Zugriff blockiert)
 
-#Auswahl und Beschreibung des Artefakts
+#### Auswahl und Beschreibung des Artefakts
 Als Artefakt habe ich einen Codeabschnitt von der Insecure App genommen. Dieser zeigt, wie der Ablauf der Authentifizierung und Autorisierung funktioniert. Im verlauf von diesem Handlungsziel habe ich verschiedene Codeabschnitte eingefügt um zu verdäutliche wie dies funktioniert.
 
-#Nachweis
+#### Nachweis
 Das implementieren der Zwei Faktor Authentifizierung in der Insecure App hat funktioniert. Somit habe ich das Ziel erreicht. Die Umsetzung der Autorisierung hat auch geklapt. Wenn sich der Nutzer anmelden möchte und die ID nicht richtig ist bedeutet das, das die Person nicht der Autor der erstellten Nachricht ist. 
 
-#Erklärung des Artefakts 
+#### Erklärung des Artefakts 
 
 #Authentifizierung
 Der erste Codeabschnitt überprüft, ob der Nutzer die 2FA aktiviert hat und authentifiziert ihn anhand dem eingegebenen Schlüssel.
